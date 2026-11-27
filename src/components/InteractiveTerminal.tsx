@@ -225,9 +225,10 @@ export const InteractiveTerminal: React.FC = () => {
           ...newHistory,
           { text: 'DEPLOYED MODULES DATABASE INVENTORY:', type: 'system' },
           { text: '  1. AeroSafe - AI Aviation Risk Analysis & Risk Vectors Predictive Model [TensorFlow/Python]', type: 'output' },
-          { text: '  2. Smart Car Pool - Real-time transit coordination engine [React/MongoDB]', type: 'output' },
-          { text: '  3. UflixStreamer - High-fidelity MERN OTT media streaming platform', type: 'output' },
-          { text: '  4. Varanasi Silks - Heritage e-commerce platform & checkout systems', type: 'output' },
+          { text: '  2. Varanasi Silks (VSilks) - Heritage silk saree & luxury e-commerce platform [React/Vercel]', type: 'output' },
+          { text: '  3. PCMart - High-efficiency electronic gadgets & computer store [MERN Stack]', type: 'output' },
+          { text: '  4. Smart Car Pool - Real-time transit coordination engine [React/MongoDB]', type: 'output' },
+          { text: '  5. UflixStreamer - High-fidelity MERN OTT media streaming platform', type: 'output' },
           { text: '  Type: "hack" to simulate codebase encryption audit.', type: 'output' }
         ]);
         playSound('success');
@@ -237,7 +238,7 @@ export const InteractiveTerminal: React.FC = () => {
         setHistory([
           ...newHistory,
           { text: 'SECURE TRANSMISSION COORDINATES:', type: 'system' },
-          { text: '  DIRECT SECURE LINK: O210468@rguktong.ac.in', type: 'output' },
+          { text: '  DIRECT SECURE LINK: praveenpamisetty@gmail.com', type: 'output' },
           { text: '  UPLINK FREQUENCY  : +91 9392970526', type: 'output' },
           { text: '  GITHUB TERMINAL   : https://github.com/Praveenkumar-999', type: 'output' },
           { text: '  LINKEDIN GATEWAY  : https://linkedin.com/in/praveenpamisetty', type: 'output' },

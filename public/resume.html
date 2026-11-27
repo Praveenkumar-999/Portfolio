@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Praveenkumar Pamisetty</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.5;
+            margin: 0;
+            padding: 40px;
+            background-color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 32px;
+            margin: 0 0 5px 0;
+            text-align: center;
+            color: #111;
+        }
+        .contact-info {
+            text-align: center;
+            font-size: 14px;
+            margin-bottom: 25px;
+            color: #666;
+        }
+        .contact-info a {
+            color: #0056ff;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        h2 {
+            font-size: 18px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            color: #111;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .section-item {
+            margin-bottom: 15px;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            color: #222;
+        }
+        .item-sub {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        ul {
+            margin: 5px 0 0 0;
+            padding-left: 20px;
+            font-size: 14px;
+            color: #444;
+        }
+        li {
+            margin-bottom: 4px;
+        }
+        .skills-grid {
+            font-size: 14px;
+            color: #444;
+        }
+        .skills-row {
+            margin-bottom: 6px;
+        }
+        .skills-label {
+            font-weight: bold;
+            color: #222;
+            display: inline-block;
+            width: 220px;
+        }
+        @media print {
+            body {
+                padding: 20px;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+        .print-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #0056ff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+        .print-btn:hover {
+            background: #0040c0;
+        }
+    </style>
+</head>
+<body>
+    <button class="print-btn no-print" onclick="window.print()">Print / Save as PDF</button>
+
+    <div class="container">
+        <h1>Praveenkumar Pamisetty</h1>
+        <div class="contact-info">
+            Jammalamadugu, Andhra Pradesh, India<br>
+            <a href="mailto:praveenpamisetty@gmail.com">praveenpamisetty@gmail.com</a> &bull; +91 9392970526 &bull; 
+            <a href="https://linkedin.com/in/praveenpamisetty" target="_blank">LinkedIn</a> &bull; 
+            <a href="https://github.com/Praveenkumar-999" target="_blank">GitHub</a>
+        </div>
+
+        <h2>Professional Summary</h2>
+        <div style="font-size: 14px; color: #444; text-align: justify;">
+            Computer Science undergraduate with strong skills in Full Stack Development, Machine Learning, and Data Analytics. Experienced in building scalable web applications using the MERN Stack and developing AI-powered solutions using Python and TensorFlow. Passionate about solving real-world problems through innovative software solutions.
+        </div>
+
+        <h2>Education</h2>
+        <div class="section-item">
+            <div class="item-header">
+                <span>Rajiv Gandhi University of Knowledge Technologies (RGUKT)</span>
+                <span>AP, India</span>
+            </div>
+            <div class="item-sub">B.Tech in Computer Science Engineering</div>
+        </div>
+        <div class="section-item">
+            <div class="item-header">
+                <span>Balaji High School</span>
+                <span>Jammalamadugu, AP</span>
+            </div>
+        </div>
+
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skills-row"><span class="skills-label">Programming Languages:</span> Python, Java, C, JavaScript</div>
+            <div class="skills-row"><span class="skills-label">Web Development:</span> HTML, CSS, React.js, Node.js, Express.js</div>
+            <div class="skills-row"><span class="skills-label">Databases:</span> MongoDB, SQL</div>
+            <div class="skills-row"><span class="skills-label">Machine Learning:</span> NumPy, Pandas, TensorFlow, Scikit-Learn</div>
+            <div class="skills-row"><span class="skills-label">Tools & Platforms:</span> Git, GitHub, Jupyter Notebook, VS Code, Power BI, Tableau</div>
+            <div class="skills-row"><span class="skills-label">Concepts:</span> Data Structures and Algorithms, DBMS, Operating Systems, Computer Networks, REST APIs</div>
+        </div>
+
+        <h2>Projects</h2>
+        <div class="section-item">
+            <div class="item-header">
+                <span>AeroSafe – AI Aviation Risk Model</span>
+                <span><a href="https://github.com/Praveenkumar-999/Aerosafe-a-flight-risk-predictor-using-machine-learning" target="_blank">Source</a></span>
+            </div>
+            <ul>
+                <li>Developed an intelligent pre-flight risk assessment platform to improve aviation safety using Machine Learning and weather analytics.</li>
+                <li>Built a CNN-based predictive model to analyze weather conditions and estimate flight risk levels.</li>
+                <li>Integrated real-time weather data from external APIs for accurate risk evaluation.</li>
+                <li>Developed a responsive dashboard to visualize risk scores and safety recommendations.</li>
+                <li>Technologies Used: Python, TensorFlow/Keras, Node.js, Express.js, MongoDB, Open-Meteo API.</li>
+            </ul>
+        </div>
+
+        <div class="section-item">
+            <div class="item-header">
+                <span>Smart Car Pooling System</span>
+                <span><a href="https://github.com/Praveenkumar-999" target="_blank">Source</a></span>
+            </div>
+            <ul>
+                <li>Developed a web-based car pooling platform that connects drivers and passengers traveling on similar routes.</li>
+                <li>Implemented user registration, ride posting, ride search, and booking functionalities.</li>
+                <li>Designed route matching logic to help users find suitable shared rides and reduce travel costs.</li>
+                <li>Built RESTful APIs for ride management and user authentication.</li>
+                <li>Technologies Used: React.js, Node.js, Express.js, MongoDB, JavaScript.</li>
+            </ul>
+        </div>
+
+        <div class="section-item">
+            <div class="item-header">
+                <span>PCMFLIX – OTT Streaming Platform</span>
+                <span><a href="https://github.com/Praveenkumar-999/UflixStreamer" target="_blank">Source</a></span>
+            </div>
+            <ul>
+                <li>Developed a full-stack OTT streaming platform using the MERN Stack.</li>
+                <li>Implemented user authentication and content management features.</li>
+                <li>Designed responsive UI for seamless viewing experience.</li>
+                <li>Developed REST APIs for content delivery and user management.</li>
+                <li>Technologies Used: MongoDB, Express.js, React.js, Node.js.</li>
+            </ul>
+        </div>
+
+        <h2>Certifications</h2>
+        <ul>
+            <li>Python Programming - NxtWave</li>
+            <li>Java Programming - NxtWave</li>
+            <li>SQL - NxtWave</li>
+            <li>C Programming - NxtWave</li>
+            <li>MEAN Stack Development - NxtWave</li>
+            <li>Generative AI Workshop</li>
+        </ul>
+
+        <h2>Relevant Coursework</h2>
+        <div style="font-size: 14px; color: #444;">
+            Data Structures and Algorithms, Database Management Systems, Operating Systems, Computer Networks, Software Engineering, Machine Learning Fundamentals, Web Development.
+        </div>
+
+        <h2>Achievements & Activities</h2>
+        <ul>
+            <li>Built multiple full-stack web applications using the MERN Stack.</li>
+            <li>Participated in AI and software development workshops.</li>
+            <li>Continuously learning Machine Learning, Data Science, and Full Stack Development.</li>
+        </ul>
+
+        <h2>Soft Skills</h2>
+        <div style="font-size: 14px; color: #444;">
+            Problem Solving, Communication, Team Collaboration, Adaptability, Critical Thinking, Leadership.
+        </div>
+    </div>
+</body>
+</html>
